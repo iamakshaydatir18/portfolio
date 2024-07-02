@@ -7,6 +7,7 @@ import proj3 from "../images/meal-app.png"
 import proj4 from "../images/course.png"
 import proj5 from "../images/tic-tac-toe.png"
 import proj6 from "../images/brain.png"
+import proj7 from "../images/portfolio.png"
 
 export const Bio = {
   name: "Akshay Datir",
@@ -20,7 +21,7 @@ export const Bio = {
     "Experienced Java Full Stack Developer skilled in MERN stack with development methodologies such as Agile and DevOps. Seeking a role to apply my skills in scalable software development and problem- solving, with the aim of contributing to team success through the implementation of innovative technologies.",
   github: "https://github.com/iamakshaydatir18",
   resume:
-    "https://drive.google.com/file/d/1-2UeyD3pCnXvgnDujqaqeG1LunkzMYt0/view",
+    "https://drive.google.com/file/d/1rQHBpuCox2EfP4hI6BjqcEqY8FR7LKyw/view",
   linkedin: "https://www.linkedin.com/in/akshaydatir/",
   twitter: "https://x.com/ImAkshaydatir",
   insta: "https://www.instagram.com/iamakshaydatir18/",
@@ -321,7 +322,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 9,
+    id: 2,
     title: "E-commerce",
     date: "Sep 2023 - Nov 2023",
     description:
@@ -345,7 +346,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 2,
+    id: 3,
     title: "Brain Tumor Detection",
     date: "Nov 2019 - Mar 2020",
     description:
@@ -357,7 +358,19 @@ export const projects = [
     webapp: "https://brain-tumor.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
+    title: "Portfolio",
+    date: "March 2024",
+    description:
+      " portfolio web app created using React with web 3.0.",
+    image: proj7,
+    tags: ["React Js", "Java Script", "HTML", "ThreeJs"],
+    category: "web app",
+    github: "https://github.com/iamakshaydatir18/portfolio.git",
+    webapp: "",
+  },
+  {
+    id: 5,
     title: "Meal - App",
     date: "May 2024 - June 2024",
     description:
@@ -369,7 +382,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 4,
+    id: 6,
     title: "Tic-Tac-Toe",
     date: "Jan 2024",
     description:
@@ -381,7 +394,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 10,
+    id: 7,
     title: "Course Registration System",
     date: "Sep 2023 - Sep 2024",
     description:
@@ -393,7 +406,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 1,
+    id: 8,
     title: "My Notes",
     date: "Jan 2024 - Feb 2024",
     description:
@@ -411,7 +424,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 5,
+    id: 9,
     title: "Amazon Clone",
     date: "Dec 2023",
     description:
