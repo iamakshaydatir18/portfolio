@@ -21,7 +21,7 @@ export const Bio = {
     "Experienced Java Full Stack Developer skilled in MERN stack with development methodologies such as Agile and DevOps. Seeking a role to apply my skills in scalable software development and problem- solving, with the aim of contributing to team success through the implementation of innovative technologies.",
   github: "https://github.com/iamakshaydatir18",
   resume:
-    "https://drive.google.com/file/d/1rQHBpuCox2EfP4hI6BjqcEqY8FR7LKyw/view",
+    "https://drive.google.com/file/d/1mDC5EoLCY9lJioA--zlyjcldsqHJTUTj/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/akshaydatir/",
   twitter: "https://x.com/ImAkshaydatir",
   insta: "https://www.instagram.com/iamakshaydatir18/",
@@ -287,7 +287,7 @@ export const education = [
     school: "Savitribai Phule Pune University",
     date: "Jun 2017 - Jun 2020",
     grade: "8.15",
-    desc: "I completed my Bachelore's Degree at International Institute of Information Technology, Pune, where I studied Information Technology.",
+    desc: "I have completed my Bachelore's Degree at International Institute of Information Technology, Pune, where I studied Information Technology.",
     degree: "Bachelore's in Information Technology",
   },
   {
@@ -296,7 +296,7 @@ export const education = [
     school: "Maharshtra State Board of Technical Education",
     date: "June 2014 - June 2017",
     grade: "75.3%",
-    desc: "I completed my Diploma in Information technology from Government Polytechnic Awasari, Pune, where I studied Diploma in Information Technology.",
+    desc: "I have completed my Diploma in Information technology from Government Polytechnic Awasari, Pune, where I studied Diploma in Information Technology.",
     degree: "Diploma in Infromation Technology",
   },
 ];
