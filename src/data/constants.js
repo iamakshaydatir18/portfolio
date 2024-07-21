@@ -239,9 +239,11 @@ export const experiences = [
     role: "Application Developer",
     company: "IBM",
     date: "March 2022 - June 2023",
-    desc: "Transitioned SOAP-based CORBA services to RESTful APIs using Spring Boot with Agile Methodologies, achieving a 20% efficiency improvement, deploying modernized APIs on the server, implementing rigorous testing practices including JUnit Mockito in sprint planning,and proficiently navigating through SDLC stages to ensure alignment with project goals and timely delivery. Utilized Java Micro Services architecture, incorporating RabbitMQ for efficient message handling, Eureka load balancer for service discovery, and Swagger for API documentation and testing, thereby enhancing system low-latency, high-throughput, high-reliability. Automated manual testing procedures through Python script development, resulting in a significant 40%-time savings and strengthening overall efficiency within the Quality Assurance team. Orchestrated Continuous Integration and Continuous Deployment workflows using Jenkins, Docker, and Kubernetes to deploy and manage distributed applications efficiently, achieving a 30% increase in release velocity. Spearheaded the integration of Kafka message queuing system into Java-based Spring Boot applications, leading to a 25% improvement in data processing speed and a 15% decrease in message delivery latency, thereby optimizing system efficiency and responsiveness",
+    desc: "Developed RESTful web services and APIs, resulting in a 25% increase in application functionality and a 20% reduction in development time. Collaborated with other developers, designers, and stakeholders to integrate third-party services and APIs, resulting in a 40% increase in application functionality and user satisfaction. Wrote technical documentation and participated in code reviews, providing feedback to other developers and improving overall code quality by 20%",
     skills: [
       "Java",
+      "Python",
+      "Django",
       "Spring boot",
       "DevOps",
       "Web Services",
@@ -256,7 +258,7 @@ export const experiences = [
     role: "Associate System Engineer",
     company: "IBM",
     date: "March 2021 - March 2022",
-    desc: "Implemented robust Java SOAP and REST web services with Java EE, ensuring high availability and scalability, resulting in a 10% reduction in response times and performed unit testing. Achieved a 15% improvement in software delivery processes by migrating critical Java packages to Microsoft Azure and pioneering YAML-based deployment pipelines, leading to more efficient software development and deployment. Led and implemented robust RESTful APIs utilizing Node.js and Express framework, incorporating JSON Web Tokens (JWT) for secure authentication and authorization. Designed and implemented scalable microservices architecture on AWS Lambda using Java, breaking down complex application logic into independent Lambda functions. Integrated Redis and DynamoDB with microservices architecture to enhance data retrieval speed and application scalability",
+    desc: "Participated in daily scrum meetings, enhancing team communication and project transparency, reducing project delays by 20%. Instituted a continuous integration/continuous deployment pipeline using Jenkins and Python scripts, improving deployment frequency by 100%. Participated in code reviews and pair programming sessions, contributing to a culture of knowledge sharing and maintaining a 98% code review acceptance rate",
     skills: [
       "Java EE",
       "JSON",
