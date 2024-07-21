@@ -12,9 +12,8 @@ import proj7 from "../images/portfolio.png"
 export const Bio = {
   name: "Akshay Datir",
   roles: [
-    "Java Full Stack Developer",
+    "Full Stack Developer",
     "Backend Developer",
-    "UI/UX Designer",
     "Programmer",
   ],
   description:
