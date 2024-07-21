@@ -17,7 +17,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "Experienced Java Full Stack Developer skilled in MERN stack with development methodologies such as Agile and DevOps. Seeking a role to apply my skills in scalable software development and problem- solving, with the aim of contributing to team success through the implementation of innovative technologies.",
+    "Experienced Full Stack Developer skilled in MERN stack with development methodologies such as Agile and DevOps. Seeking a role to apply my skills in scalable software development and problem- solving, with the aim of contributing to team success through the implementation of innovative technologies.",
   github: "https://github.com/iamakshaydatir18",
   resume:
     "https://drive.google.com/file/d/1nDma0QPZUHeUFUWDkSGAJjJUeMGCCjgx/view?usp=sharing",
