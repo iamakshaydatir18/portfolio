@@ -14,10 +14,11 @@ export const Bio = {
   roles: [
     "Full Stack Developer",
     "Backend Developer",
+    "Java Developer",
     "Programmer",
   ],
   description:
-    "Experienced Full Stack Developer skilled in MERN stack with development methodologies such as Agile and DevOps. Seeking a role to apply my skills in scalable software development and problem- solving, with the aim of contributing to team success through the implementation of innovative technologies.",
+    "Experienced Java Full Stack Developer skilled in MERN, MEAN stack with development methodologies such as Agile and DevOps. Seeking a role to apply my skills in scalable software development and problem- solving, with the aim of contributing to team success through the implementation of innovative technologies.",
   github: "https://github.com/iamakshaydatir18",
   resume:
     "",
@@ -238,7 +239,7 @@ export const experiences = [
     role: "Application Developer",
     company: "IBM",
     date: "March 2022 - June 2023",
-    desc: "Developed RESTful web services and APIs, resulting in a 25% increase in application functionality and a 20% reduction in development time. Collaborated with other developers, designers, and stakeholders to integrate third-party services and APIs, resulting in a 40% increase in application functionality and user satisfaction. Wrote technical documentation and participated in code reviews, providing feedback to other developers and improving overall code quality by 20%",
+    desc: "",
     skills: [
       "Java",
       "Python",
@@ -257,7 +258,7 @@ export const experiences = [
     role: "Associate System Engineer",
     company: "IBM",
     date: "March 2021 - March 2022",
-    desc: "Participated in daily scrum meetings, enhancing team communication and project transparency, reducing project delays by 20%. Instituted a continuous integration/continuous deployment pipeline using Jenkins and Python scripts, improving deployment frequency by 100%. Participated in code reviews and pair programming sessions, contributing to a culture of knowledge sharing and maintaining a 98% code review acceptance rate",
+    desc: "",
     skills: [
       "Java EE",
       "JSON",
@@ -363,7 +364,7 @@ export const projects = [
     title: "Portfolio",
     date: "March 2024",
     description:
-      " portfolio web app created using React with web 3.0.",
+      " portfolio web app created using React with Animations.",
     image: proj7,
     tags: ["React Js", "Java Script", "HTML", "ThreeJs"],
     category: "web app",
