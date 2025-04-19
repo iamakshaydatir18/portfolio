@@ -8,6 +8,7 @@ import proj4 from "../images/course.png"
 import proj5 from "../images/tic-tac-toe.png"
 import proj6 from "../images/brain.png"
 import proj7 from "../images/portfolio.png"
+import MekabearLogo from "../images/company logo.png"
 
 export const Bio = {
   name: "Akshay Datir",
@@ -17,7 +18,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "Experienced Java Stack Developer skilled in MERN, MEAN stack with development methodologies such as Agile and DevOps. Seeking a role to apply my skills in scalable software development and problem- solving, with the aim of contributing to team success through the implementation of innovative technologies.",
+    "Experienced Full Stack Developer skilled in MERN stack with development methodologies such as Agile and DevOps. Seeking a role to apply my skills in scalable software development and problem- solving, with the aim of contributing to team success through the implementation of innovative technologies.",
   github: "https://github.com/iamakshaydatir18",
   resume:
     "",
@@ -234,6 +235,26 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: MekabearLogo,
+    role: "Software Developer Co-op",
+    company: "Meka Bear Industries",
+    date: "Jan 2025 - August 2025",
+    desc: "",
+    skills: [
+      "AWS",
+      "Go",
+      "Python",
+      "NodeJs",
+      "Fast API",
+      "DevOps",
+      "Microservices",
+      "GraphQL",
+      "CI/CD",
+      "REST",
+    ],
+  },
+  {
+    id: 1,
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/1280px-IBM_logo.svg.png",
     role: "Application Developer",
     company: "IBM",
@@ -252,7 +273,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/1280px-IBM_logo.svg.png",
     role: "Associate System Engineer",
     company: "IBM",
@@ -278,7 +299,7 @@ export const education = [
     img: logo1,
     school: "Northeastern University",
     date: "Sep 2023 - May 2025",
-    grade: "3.5 GPA",
+    grade: "3.6 GPA",
     desc: "I am currently pursuing a Master's degree in Software Engineering Systems at Northeastern University, Boston, Massachusetts. I have completed 2 semesters and have a GPA of 3.5. I have taken courses in Object-Oriented Programming, Database Management Systems, Web Design and Development with UE/UI.",
     degree: "Master's of Science - Software Engineering Systems",
   },

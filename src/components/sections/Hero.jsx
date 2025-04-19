@@ -249,7 +249,7 @@ const Hero = () => {
                 <SubTitle>{Bio.description}</SubTitle>
               </motion.div>
 
-              <ResumeButton href="https://akshaydatir-portfolio.netlify.app/" target="_blank">
+              <ResumeButton href="#" target="_blank">
                 Check Resume
               </ResumeButton>
             </HeroLeftContainer>
