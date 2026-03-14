@@ -1,10 +1,11 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import styled from "styled-components";
 import { education } from "../../data/constants";
 import EducationCard from "../cards/EducationCard";
-import EarthCanvas from "../canvas/Earth";
+
+const EarthCanvas = React.lazy(() => import("../canvas/Earth"));
 
 const Container = styled.div`
   display: flex;
@@ -68,7 +69,9 @@ const Education = () => {
             <EducationCard key={`education-${index}`} education={education} />
           ))}
         </VerticalTimeline>
-        <EarthCanvas />
+        <Suspense fallback={null}>
+          <EarthCanvas />
+        </Suspense>
       </Wrapper>
     </Container>
   );

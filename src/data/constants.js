@@ -9,16 +9,20 @@ import proj5 from "../images/tic-tac-toe.png"
 import proj6 from "../images/brain.png"
 import proj7 from "../images/portfolio.png"
 import MekabearLogo from "../images/company logo.png"
+import SPIN from "../images/spin.jpeg"
+import LogyanaLogo from "../images/logyana.jpeg"
+import cloudProject from "../images/cloud_project.png"
+import multiAgent from "../images/multi_agent.png"
 
 export const Bio = {
   name: "Akshay Datir",
   roles: [
     "Full Stack Developer",
-    "Backend Developer",
-    "Programmer",
+      "Software Engineer",
+      "AI/ML Engineer",
   ],
   description:
-    "Experienced Full Stack Developer skilled in MERN stack with development methodologies such as Agile and DevOps. Seeking a role to apply my skills in scalable software development and problem- solving, with the aim of contributing to team success through the implementation of innovative technologies.",
+    "Software Engineer with 4+ years of experience designing, developing, and deploying distributed systems, cloud-native microservices, web applications, and mobile apps. I specialize in building scalable backend services and event-driven architectures using Java/Spring Boot, Go, Node.js, and Python on AWS, while also delivering full-stack experiences with React and React Native. Recently completed my Master's in Software Engineering Systems from Northeastern University, where I deepened my focus on system design, performance optimization, and AI/ML - building multi-agent platforms with LangChain/LangGraph, RAG pipelines, and LLM fine-tuning.",
   github: "https://github.com/iamakshaydatir18",
   resume:
     "",
@@ -191,6 +195,36 @@ export const skills = [
     ],
   },
   {
+    title: "AI/ML",
+    skills: [
+      {
+        name: "TensorFlow",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg",
+      },
+      {
+        name: "PyTorch",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg",
+      },
+      {
+        name: "Scikit-learn",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg",
+      },
+      {
+        name: "Hugging Face",
+        image:
+          "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/huggingface.svg",
+      },
+      {
+        name: "Keras",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/keras/keras-original.svg",
+      },
+    ],
+  },
+  {
     title: "Others",
     skills: [
       {
@@ -236,6 +270,46 @@ export const experiences = [
   {
     id: 0,
     img: MekabearLogo,
+    role: "Software Developer ",
+    company: "Meka Bear Industries",
+    date: "March 2026 - Present",
+    desc: "",
+    skills: [
+      "AWS",
+      "Go",
+      "Python",
+      "NodeJs",
+      "Fast API",
+      "DevOps",
+      "Microservices",
+      "GraphQL",
+      "CI/CD",
+      "REST",
+      "AI/ML",
+    ],
+  },
+  {
+    id: 1,
+    img: SPIN,
+    role: "Software Developer",
+    company: "SPIN",
+    date: "September 2025 - December 2025",
+    desc: "",
+    skills: [
+      "Node Js",
+      "MERN",
+      "AI/ML",
+      "AWS",
+      "ECS",
+      "CI/CD",
+      "REST",
+      "GraphQL",
+      "Microservices",
+    ],
+  },
+  {
+    id: 2,
+    img: MekabearLogo,
     role: "Software Developer Co-op",
     company: "Meka Bear Industries",
     date: "Jan 2025 - August 2025",
@@ -254,7 +328,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 3,
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/1280px-IBM_logo.svg.png",
     role: "Application Developer",
     company: "IBM",
@@ -273,7 +347,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 4,
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/1280px-IBM_logo.svg.png",
     role: "Associate System Engineer",
     company: "IBM",
@@ -291,6 +365,25 @@ export const experiences = [
       "Node Js",
     ],
   },
+  {
+    id: 5,
+    img: LogyanaLogo,
+    role: "Junir Software Engineer",
+    company: "Logyana Solutions",
+    date: "April 2019 - February 2021",
+    desc: "",
+    skills: [
+      "Java",
+      "MERN",
+      "Spring Boot",
+      "EC2",
+      "Hadoop",
+      "AWS",
+      "JavaScript",
+      "TypeScript",
+      "Node Js",
+    ],
+  },
 ];
 
 export const education = [
@@ -300,7 +393,7 @@ export const education = [
     school: "Northeastern University",
     date: "Sep 2023 - May 2025",
     grade: "3.6 GPA",
-    desc: "I am currently pursuing a Master's degree in Software Engineering Systems at Northeastern University, Boston, Massachusetts. I have completed 2 semesters and have a GPA of 3.5. I have taken courses in Object-Oriented Programming, Database Management Systems, Web Design and Development with UE/UI.",
+    desc: "I have completed my Master's degree in Software Engineering Systems at Northeastern University, Boston, Massachusetts. I have taken courses in Object-Oriented Programming, Enterprise Software Design, Cloud Computing Database Management Systems, Web Design and Development with UE/UI, Problem Solving and Data Structure, Software Quality Assurance .",
     degree: "Master's of Science - Software Engineering Systems",
   },
   {
@@ -325,7 +418,53 @@ export const education = [
 
 export const projects = [
   {
+    id: 0,
+    title: "Cloud Native Web Application",
+    date: "September 2024 - November 2024",
+    description:
+      "This cloud-native application combines a web service with AWS serverless architecture and infrastructure as code using Terraform.",
+    image: cloudProject,
+    tags: [
+      "AWS",
+      "Java",
+      "Rest APIs",
+      "Microservices",
+      "Lambda",
+      "DynamoDB",
+      "SQS",
+      "SNS",
+      "S3",
+      "CloudFront",
+      "CloudWatch",
+      "CloudTrail",
+      ],
+    category: "web app",
+    github: "https://github.com/iamakshaydatir18/Cloud-Native-Web-Application.git",
+    webapp: "",
+  },
+  {
     id: 1,
+    title: "Multi-Agent Platform with LangChain/LangGraph",
+    date: "November 2024 - December 2024",
+    description:
+      "Developed a multi-agent AI platform with Python/FastAPI backend, LangGraph orchestrating 7 specialized agents, RAG pipeline with Pinecone vector search, Snowflake data integration, and token/cost telemetry across multiple LLM providers.",
+    image: multiAgent,
+    tags: [
+      "Python",
+      "FastAPI",
+      "LangChain",
+      "LangGraph",
+      "RAG",
+      "Pinecone",
+      "Snowflake",
+      "LLM",
+      ],
+    category: "machine learning",
+    github: "https://github.com/iamakshaydatir18/Crime-Analysis-Multi-Agent-Project",
+    webapp: "",
+  },
+  {
+    id: 2,
     title: "Refugee Connect",
     date: "Jan 2024 - May 2024",
     description:
@@ -344,7 +483,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 2,
+    id: 3,
     title: "E-commerce",
     date: "Sep 2023 - Nov 2023",
     description:
@@ -368,7 +507,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 3,
+    id: 4,
     title: "Brain Tumor Detection",
     date: "Nov 2019 - Mar 2020",
     description:
@@ -380,7 +519,7 @@ export const projects = [
     webapp: "https://brain-tumor.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Portfolio",
     date: "March 2024",
     description:
@@ -392,7 +531,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 5,
+    id: 6,
     title: "Meal - App",
     date: "May 2024 - June 2024",
     description:
@@ -404,7 +543,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 6,
+    id: 7,
     title: "Tic-Tac-Toe",
     date: "Jan 2024",
     description:
@@ -416,7 +555,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 7,
+    id: 8,
     title: "Course Registration System",
     date: "Sep 2023 - Sep 2024",
     description:
@@ -428,7 +567,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 8,
+    id: 9,
     title: "My Notes",
     date: "Jan 2024 - Feb 2024",
     description:
@@ -446,7 +585,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 9,
+    id: 10,
     title: "Amazon Clone",
     date: "Dec 2023",
     description:
